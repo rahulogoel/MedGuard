@@ -1,0 +1,162 @@
+[
+    {
+        "record_id": "REC-001",
+        "patient_name": "James Holden",
+        "date_of_visit": "2026-03-01",
+        "diagnosis_code": "J45.90",
+        "status": "Follow-up scheduled",
+        "notes": null
+    },
+    {
+        "record_id": "REC-002",
+        "patient_name": "Naomi Nagata",
+        "date_of_visit": "2026-02-15",
+        "diagnosis_code": "E11.9",
+        "status": "Stable",
+        "notes": "Patient managing with insulin."
+    },
+    {
+        "record_id": "REC-003",
+        "patient_name": "Amos Burton",
+        "date_of_visit": "2026-01-20",
+        "diagnosis_code": "S82.101A",
+        "status": "Imaging ordered",
+        "notes": "Tibia fracture suspected. X-ray pending."
+    },
+    {
+        "record_id": "REC-004",
+        "patient_name": "Alex Kamal",
+        "date_of_visit": "2026-03-05",
+        "diagnosis_code": "I10",
+        "status": "Routine checkup",
+        "notes": null
+    },
+    {
+        "record_id": "REC-005",
+        "patient_name": "Chrisjen Avasarala",
+        "date_of_visit": "2026-03-08",
+        "diagnosis_code": "Z00.00",
+        "status": "Clear",
+        "notes": "Annual wellness visit. No concerns."
+    },
+    {
+        "record_id": "REC-006",
+        "patient_name": "Bobbie Draper",
+        "date_of_visit": "2026-02-28",
+        "diagnosis_code": "M54.5",
+        "status": "Physical therapy",
+        "notes": "Low back pain. 6-week PT course."
+    },
+    {
+        "record_id": "REC-007",
+        "patient_name": "Camina Drummer",
+        "date_of_visit": "2026-03-02",
+        "diagnosis_code": "R51.9",
+        "status": "Rest advised",
+        "notes": null
+    },
+    {
+        "record_id": "REC-008",
+        "patient_name": "Fred Johnson",
+        "date_of_visit": "2026-02-10",
+        "diagnosis_code": "E78.5",
+        "status": "Medication adjusted",
+        "notes": "Switched to atorvastatin 40mg."
+    },
+    {
+        "record_id": "REC-009",
+        "patient_name": "Klaes Ashford",
+        "date_of_visit": "2026-01-15",
+        "diagnosis_code": "H90.3",
+        "status": "Device fitted",
+        "notes": "Bilateral hearing aid fitting complete."
+    },
+    {
+        "record_id": "REC-010",
+        "patient_name": "Josephus Miller",
+        "date_of_visit": "2026-03-04",
+        "diagnosis_code": "F41.1",
+        "status": "Counseling",
+        "notes": "GAD. Referred to behavioral health."
+    },
+    {
+        "record_id": "REC-011",
+        "patient_name": "S. Baxter",
+        "date_of_visit": "2026-03-03",
+        "diagnosis_code": "R05",
+        "status": "Pending review",
+        "notes": "Chronic cough. No other details provided by clinic."
+    },
+    {
+        "record_id": "REC-012",
+        "patient_name": "Monica Stuart",
+        "date_of_visit": "2026-03-08",
+        "diagnosis_code": "I10",
+        "status": "Pending review",
+        "notes": "High blood pressure reading today. Likely hypertension (I10). Needs confirmation."
+    },
+    {
+        "record_id": "REC-013",
+        "patient_name": "julie_mao",
+        "date_of_visit": "2026-02-01",
+        "diagnosis_code": "E10.65",
+        "status": "Urgent follow-up",
+        "notes": "Legacy system export. Semicolon-delimited. raw_payload: id=p99;name=julie_mao;dt=2026/02/01;dx=E10.65;notes=urgent_followup"
+    },
+    {
+        "record_id": "REC-014",
+        "patient_name": "Elvi Okoye",
+        "date_of_visit": "2026-03-06",
+        "diagnosis_code": "J20.9",
+        "status": "Resolved",
+        "notes": "Dr. Aris Thorne saw patient for acute bronchitis. Patient responded well to treatment."
+    },
+    {
+        "record_id": "REC-015",
+        "patient_name": "Dimitri Havelock",
+        "date_of_visit": "2026-02-23",
+        "diagnosis_code": "G43.9",
+        "status": "Pending neurology consult",
+        "notes": "Possible G43.9 — migraine with aura. Needs neurology consult."
+    },
+    {
+        "record_id": "REC-016",
+        "patient_name": "Praxidike Meng",
+        "date_of_visit": "2026-02-23",
+        "diagnosis_code": "E84.0",
+        "status": "Ongoing treatment",
+        "notes": null
+    },
+    {
+        "record_id": "REC-017",
+        "patient_name": "Clarissa Mao",
+        "date_of_visit": "2026-03-09",
+        "diagnosis_code": "N18.3",
+        "status": "New diagnosis",
+        "notes": "No prior renal history. Stage 3 CKD. Urgent nephrology referral."
+    },
+    {
+        "record_id": "REC-018",
+        "patient_name": "Anderson Dawes",
+        "date_of_visit": "2026-02-20",
+        "diagnosis_code": "Z71.3",
+        "status": "Completed",
+        "notes": "Dietary counseling session."
+    },
+    {
+        "record_id": "REC-019",
+        "patient_name": "Cotyar Ghazi",
+        "date_of_visit": "2026-01-01",
+        "diagnosis_code": "I25.10",
+        "status": "Unknown",
+        "notes": "Found in old chart during audit. No current status available."
+    },
+    {
+        "record_id": "REC-020",
+        "patient_name": "Octavia Muss",
+        "date_of_visit": "2026-03-05",
+        "diagnosis_code": "M79.1",
+        "status": "Follow-up scheduled",
+        "notes": "Referral for Octavia Muss. Seen approx 4 days ago. Dx code: M79.1 (Myalgia). Please schedule follow-up with rheumatology. Source: external_fax."
+    }
+]

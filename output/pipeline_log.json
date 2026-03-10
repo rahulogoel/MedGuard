@@ -1,0 +1,681 @@
+[
+    {
+        "record_id": "REC-001",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-03-01",
+                "normalized": "2026-03-01",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-002",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-02-15",
+                "normalized": "2026-02-15",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-003",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-01-20",
+                "normalized": "2026-01-20",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-004",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-03-05",
+                "normalized": "2026-03-05",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-005",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-03-08",
+                "normalized": "2026-03-08",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-006",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-02-28",
+                "normalized": "2026-02-28",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-007",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-03-02",
+                "normalized": "2026-03-02",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-008",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-02-10",
+                "normalized": "2026-02-10",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-009",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-01-15",
+                "normalized": "2026-01-15",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-010",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026-03-04",
+                "normalized": "2026-03-04",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-011",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "status: Input should be a valid string"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-011",
+                    "patient_name": "S. Baxter",
+                    "date_of_visit": "last Tuesday",
+                    "diagnosis_code": "R05",
+                    "status": null,
+                    "notes": "Chronic cough. No other details provided by clinic."
+                },
+                "healed_record": {
+                    "record_id": "REC-011",
+                    "patient_name": "S. Baxter",
+                    "date_of_visit": "last Tuesday",
+                    "diagnosis_code": "R05",
+                    "status": "Pending review",
+                    "notes": "Chronic cough. No other details provided by clinic."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "last Tuesday",
+                "normalized": "2026-03-03",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-012",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "diagnosis_code: Input should be a valid string"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-012",
+                    "patient_name": "Monica Stuart",
+                    "date_of_visit": "yesterday",
+                    "diagnosis_code": null,
+                    "status": "Pending review",
+                    "notes": "High blood pressure reading today. Likely hypertension (I10). Needs confirmation."
+                },
+                "healed_record": {
+                    "record_id": "REC-012",
+                    "patient_name": "Monica Stuart",
+                    "date_of_visit": "yesterday",
+                    "diagnosis_code": "I10",
+                    "status": "Pending review",
+                    "notes": "High blood pressure reading today. Likely hypertension (I10). Needs confirmation."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "yesterday",
+                "normalized": "2026-03-08",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-013",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "patient_name: Field required",
+                    "date_of_visit: Field required",
+                    "diagnosis_code: Field required",
+                    "status: Field required"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-013",
+                    "raw_payload": "id=p99;name=julie_mao;dt=2026/02/01;dx=E10.65;notes=urgent_followup",
+                    "notes": "Legacy system export. Semicolon-delimited."
+                },
+                "healed_record": {
+                    "record_id": "REC-013",
+                    "patient_name": "julie_mao",
+                    "date_of_visit": "2026/02/01",
+                    "diagnosis_code": "E10.65",
+                    "status": "Urgent follow-up",
+                    "notes": "Legacy system export. Semicolon-delimited. raw_payload: id=p99;name=julie_mao;dt=2026/02/01;dx=E10.65;notes=urgent_followup"
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2026/02/01",
+                "normalized": "2026-02-01",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-014",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "patient_name: Field required",
+                    "date_of_visit: Field required",
+                    "diagnosis_code: Field required"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-014",
+                    "encounter_note": "Dr. Aris Thorne saw Elvi Okoye 3 days ago for acute bronchitis (J20.9). Patient responded well to treatment.",
+                    "status": "Resolved"
+                },
+                "healed_record": {
+                    "record_id": "REC-014",
+                    "patient_name": "Elvi Okoye",
+                    "date_of_visit": "3 days ago",
+                    "diagnosis_code": "J20.9",
+                    "status": "Resolved",
+                    "notes": "Dr. Aris Thorne saw patient for acute bronchitis. Patient responded well to treatment."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "3 days ago",
+                "normalized": "2026-03-06",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-015",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "patient_name: Field required",
+                    "date_of_visit: Field required",
+                    "diagnosis_code: Field required",
+                    "status: Field required"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-015",
+                    "pat": "Dimitri Havelock",
+                    "vis": "2 weeks ago",
+                    "dx": "Unknown",
+                    "notes": "Possible G43.9 — migraine with aura. Needs neurology consult."
+                },
+                "healed_record": {
+                    "record_id": "REC-015",
+                    "patient_name": "Dimitri Havelock",
+                    "date_of_visit": "2 weeks ago",
+                    "diagnosis_code": "G43.9",
+                    "status": "Pending neurology consult",
+                    "notes": "Possible G43.9 — migraine with aura. Needs neurology consult."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2 weeks ago",
+                "normalized": "2026-02-23",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-016",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "2 weeks before 2026-03-09",
+                "normalized": "2026-02-23",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-017",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "today",
+                "normalized": "2026-03-09",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-018",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "02/20/2026",
+                "normalized": "2026-02-20",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-019",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "status: Input should be a valid string"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-019",
+                    "patient_name": "Cotyar Ghazi",
+                    "date_of_visit": "01/01/2026",
+                    "diagnosis_code": "I25.10",
+                    "status": null,
+                    "notes": "Found in old chart during audit. No current status available."
+                },
+                "healed_record": {
+                    "record_id": "REC-019",
+                    "patient_name": "Cotyar Ghazi",
+                    "date_of_visit": "01/01/2026",
+                    "diagnosis_code": "I25.10",
+                    "status": "Unknown",
+                    "notes": "Found in old chart during audit. No current status available."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "01/01/2026",
+                "normalized": "2026-01-01",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-020",
+        "gates": {
+            "security": {
+                "passed": true,
+                "reasons": []
+            },
+            "schema_validation": {
+                "passed": false,
+                "errors": [
+                    "patient_name: Field required",
+                    "date_of_visit: Field required",
+                    "diagnosis_code: Field required",
+                    "status: Field required"
+                ]
+            },
+            "fixer_agent": {
+                "invoked": true,
+                "input_record": {
+                    "record_id": "REC-020",
+                    "referral_text": "Referral for Octavia Muss. Seen approx 4 days ago. Dx code: M79.1. Myalgia. Please schedule follow-up with rheumatology.",
+                    "source": "external_fax"
+                },
+                "healed_record": {
+                    "record_id": "REC-020",
+                    "patient_name": "Octavia Muss",
+                    "date_of_visit": "approx 4 days ago",
+                    "diagnosis_code": "M79.1",
+                    "status": "Follow-up scheduled",
+                    "notes": "Referral for Octavia Muss. Seen approx 4 days ago. Dx code: M79.1 (Myalgia). Please schedule follow-up with rheumatology. Source: external_fax."
+                }
+            },
+            "schema_revalidation": {
+                "passed": true,
+                "errors": []
+            },
+            "date_normalization": {
+                "original": "approx 4 days ago",
+                "normalized": "2026-03-05",
+                "error": null
+            }
+        },
+        "final_status": "CLEAN"
+    },
+    {
+        "record_id": "REC-021",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'status': confidence=1.000",
+                    "[L2-ml][INJECTION] in 'notes': confidence=1.000"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-022",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L1-regex][xss_payload] in 'patient_name': matched /<\\s*script[^>]*>/"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-023",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'status': confidence=1.000"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-024",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'notes': confidence=1.000"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-025",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'notes': confidence=0.997"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-026",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'notes': confidence=1.000"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-027",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L1-regex][template_injection] in 'date_of_visit': matched /\\{\\{.*?\\}\\}/",
+                    "[L1-regex][template_injection] in 'status': matched /\\{\\{.*?\\}\\}/"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-028",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'status': confidence=1.000"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-029",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L2-ml][INJECTION] in 'notes': confidence=0.999"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    },
+    {
+        "record_id": "REC-030",
+        "gates": {
+            "security": {
+                "passed": false,
+                "reasons": [
+                    "[L1-regex][sql_injection] in 'patient_name': matched /(;|'|\\\")?\\s*(DROP|DELETE|INSERT|UPDATE|ALTER|TRUNCATE)\\s+TABLE/",
+                    "[L1-regex][sql_injection] in 'notes': matched /(;|'|\\\")?\\s*(DROP|DELETE|INSERT|UPDATE|ALTER|TRUNCATE)\\s+TABLE/"
+                ]
+            }
+        },
+        "final_status": "QUARANTINED"
+    }
+]
